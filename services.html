@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimal-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
     <meta name="description" content="">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -77,6 +77,10 @@
     <script>
         $(window).on("load", function () {
             $(".loader__wrapper").fadeOut("slow");
+        });
+
+        $(document).ready(function () {
+            $(this).scrollTop(0);
         });
     </script>
 </body>

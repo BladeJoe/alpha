@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimal-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
     <meta name="description" content="">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -58,7 +58,7 @@
     </nav>
 
     <main class="main text-light">
-        <div class="container d-flex flex-column gap-4 text-center justify-content-between m-5"
+        <div class="container d-flex flex-column gap-4 text-center justify-content-between m-5 fs-3"
             style="height: 100%!important; ">
             <p>
 
@@ -76,7 +76,7 @@
                 Learnt many IT skills at different LCs<br>
             </p>
 
-            <p style="max-width: 400px; display: flex;margin: 0 auto;">
+            <p style="max-width: 600px; display: flex;margin: 0 auto;">
                 Thus he began a long activity linked above all to the
                 commercial and catering sector, where creativity,
                 design and IQ skills merge. Thanks to international
@@ -104,6 +104,10 @@
     <script>
         $(window).on("load", function () {
             $(".loader__wrapper").fadeOut("slow");
+        });
+
+        $(document).ready(function () {
+            $(this).scrollTop(0);
         });
     </script>
 </body>
