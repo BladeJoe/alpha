@@ -12,7 +12,10 @@
     <title>XBM</title>
 </head>
 
+
 <body>
+
+
     <div class="loader__wrapper">
         <div class="loader__02">
             <strong>Loading</strong>
@@ -42,8 +45,9 @@
     <nav class="navbar fixed-top navbar-dark navbar-expand-xl">
         <div class="container d-flex justify-content-between w-100">
             <a class="navbar-brand fs-1" href="#">
-                <h3 style="display:inline-block ">XBM</h3>
-                <h6 style="display:inline-block ;">`s alpha project</h6>
+                <h3 style="display:inline-block ">XBM
+                    <h6 style="display:inline-block ;">`s alpha project</h6>
+                </h3>
                 </h6>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -64,7 +68,7 @@
     <main class="main text-light">
         <div class="container">
 
-            <iframe src="https://wordeffect.netlify.app/" frameborder="0" width="100%" style=" height: 100vh;"></iframe>
+            <iframe src="https://wordeffect.netlify.app/" frameborder="0" width="100%" style=" height: 100vh;margin-top: 66px;"></iframe>
             <br>
 
             <section class="cards">
@@ -102,18 +106,19 @@
 
 
                 </div>
+
                 <div class="show-more d-block text-center mb-5">
                     <a class="btn btn-lg btn-primary" href="portfolio.html">Show More</a>
                 </div>
 
 
+            </section>
         </div>
-        </section>
-        </div>
-
 
 
     </main>
+    <img src="https://picsum.photos/2000/1000" width="" alt="">
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
@@ -126,6 +131,10 @@
     <script>
         $(window).on("load", function () {
             $(".loader__wrapper").fadeOut("slow");
+        });
+
+        $(document).ready(function () {
+            $(this).scrollTop(0);
         });
     </script>
 </body>
